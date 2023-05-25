@@ -9,7 +9,7 @@ appearance:
   theme_day: minimal
   theme_night: minimal
   font: minimal
-  font_size: L
+  font_size: M
 
 # SEO
 
@@ -18,10 +18,10 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
+    description: "This is OeWang's tech blog."
+    twitter: 'issuesWang'
   analytics:
-    google_analytics: ''
+    google_analytics: 'G-4W7D1C5VYW'
     baidu_tongji: ''
   verification:
     google: ''
@@ -43,11 +43,11 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '<a href="https://oewang.github.io">oewang.github.io</a> © {year} | All Rights Reserved.'
     license:
-      enable: true
+      enable: false
       allow_derivatives: false
-      share_alike: true
+      share_alike: false
       allow_commercial: false
 
 # Localization
@@ -68,26 +68,36 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/oewang'
     content_dir: content
-    branch: main
+    branch: master
   avatar:
     gravatar: false
     shape: circle
   comment:
-    provider: ''
+    provider: 'giscus'
     disqus:
       shortname: ''
       show_count: true
     commento:
       url: ''
     giscus:
-      repo: ''
-      repo_id: ''
-      category: ''
-      category_id: ''
+      repo: 'oewang/oewang.github.io'
+      repo_id: 'R_kgDOI5ZHBQ'
+      category: 'Announcements'
+      category_id: 'DIC_kwDOI5ZHBc4CUecv'
+      mapping: 'title'
+      strict_matching: 'true'
+      reactions: 'true'
+      emit_metadata: 'true'
+      input_position: 'top'
+      theme: 'preferred_color_scheme'
+      languages_mapping: 
+        'en-us': en
+      crossorigin: 'anonymous'
+      async: 'true'
   search:
-    provider: wowchemy
+    provider: owang
     algolia:
       app_id: ''
       api_key: ''
