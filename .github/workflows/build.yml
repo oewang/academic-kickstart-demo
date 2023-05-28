@@ -9,6 +9,7 @@ jobs:
   deploy:
     runs-on: ubuntu-20.04
     steps:
+      - name: Checkout Code
       - uses: actions/checkout@v2
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
@@ -29,6 +30,6 @@ jobs:
           deploy_key: ${{ secrets.access_token }}
           publish_dir: ./public
           publish_branch: master  # deploying branch
-          cname: oewang.github.io
+          cname: cname-china.vercel-dns.com
           allow_empty_commit: true
           external_repository: oewang/oewang.github.io
