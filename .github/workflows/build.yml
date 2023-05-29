@@ -30,6 +30,5 @@ jobs:
           deploy_key: ${{ secrets.access_token }}
           publish_dir: ./public
           publish_branch: master  # deploying branch
-          cname: cname-china.vercel-dns.com
           allow_empty_commit: true
           external_repository: oewang/oewang.github.io
