@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title:
-date: 2022-10-24
+date: 2023-05-29
 type: landing
 
 sections:
@@ -38,7 +38,7 @@ sections:
   - block: about.biography
     id: about
     content:
-      title: Biography
+      title: 个人简介
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: oewang
   # - block: features
@@ -134,7 +134,7 @@ sections:
   - block: collection
     id: posts
     content:
-      title: Recent Posts
+      title: 最近文章
       subtitle: ''
       text: ''
       # Choose how many pages you would like to display (0 = all pages)
@@ -161,7 +161,7 @@ sections:
   - block: portfolio
     id: projects
     content:
-      title: Projects
+      title: 项目
       filters:
         folders:
           - project
@@ -173,11 +173,11 @@ sections:
       # To filter by a specific tag, set `tag` to an existing tag name.
       # To remove the toolbar, delete the entire `filter_button` block.
       buttons:
-        - name: All
+        - name: 所有
           tag: '*'
         - name: Java
           tag: java
-        - name: Other
+        - name: 其他
           tag: Demo
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
@@ -187,7 +187,7 @@ sections:
       flip_alt_rows: false
   - block: markdown
     content:
-      title: Gallery
+      title: 画廊
       subtitle: ''
       text: |-
         {{< gallery album="demo" >}}
@@ -221,7 +221,7 @@ sections:
   - block: collection
     id: talks
     content:
-      title: Recent & Upcoming Talks
+      title: 最近和即将举行的讲座
       filters:
         folders:
           - event
@@ -231,7 +231,7 @@ sections:
   - block: tag_cloud
     id: tags
     content:
-      title: Popular Topics
+      title: 热门标签
     design:
       columns: '2'
   # - block: contact

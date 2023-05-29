@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: "OeWang Blog👋" # Website name
+title: "OeWang's Blog👋" # Website name
 baseURL: 'https://oewang.github.io/' # Website URL
 
 ############################
@@ -30,7 +30,7 @@ module:
 ## ADVANCED
 ############################
 
-enableGitInfo: false
+enableGitInfo: true
 summaryLength: 30
 paginate: 10
 enableEmoji: true
@@ -73,3 +73,6 @@ sitemap:
   _merge: deep
 minify:
   _merge: deep
+cascade:
+  path: /content/[zh|en]/[post|project]/**
+  commentable: true

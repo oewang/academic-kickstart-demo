@@ -14,7 +14,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Sofaware Enginner
+role: 软件工程师
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -26,9 +26,9 @@ bio:
 
 # Interests to show in About widget
 interests:
-- Sofaware Architecture
-- Cloud-Native Technologies
-- Rust/Golang Languages
+- 软件架构
+- 云原生架构
+- Rust/Golang 语言
 
 # Education to show in About widget
 # education:
@@ -50,7 +50,7 @@ social:
     link: https://twitter.com/issuesWang
     label: Follow me on Twitter
     display:
-      header: true
+      header: false
   - icon: discord
     icon_pack: fab
     link: https://discord.com/channels/zeyingwang#8598
@@ -71,5 +71,5 @@ email: 'oewang2738@gmail.com'
 highlight_name: true
 ---
 
-I am currently a software engineer providing a ride hailing service platform. My research interests include microservices architecture, cloud-native technologies, and basic computer technologies. This blog is mainly used for documenting life and sharing technology.
+我目前是一名提供叫车服务平台的软件工程师。我的研究兴趣包括微服务架构，云原生技术，以及计算机基础技术。这个博客主要用于记录生活和分享技术。
 {style="text-align: justify;"}

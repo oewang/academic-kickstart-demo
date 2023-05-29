@@ -1,0 +1,123 @@
+# SITE SETUP
+# Guide: https://wowchemy.com/docs/getting-started/
+# Documentation: https://wowchemy.com/docs/
+# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+
+# Appearance
+
+appearance:
+  theme_day: minimal
+  theme_night: minimal
+  font: minimal
+  font_size: M
+
+# SEO
+
+marketing:
+  seo:
+    site_type: Person
+    local_business_type: ''
+    org_name: ''
+    description: "这是OeWang的技术博客"
+    twitter: 'issuesWang'
+  analytics:
+    google_analytics: 'G-4W7D1C5VYW'
+    baidu_tongji: ''
+  verification:
+    google: ''
+    baidu: ''
+
+# Site header
+
+header:
+  navbar:
+    enable: true
+    align: l
+    show_logo: true
+    show_language: false
+    show_day_night: true
+    show_search: true
+    highlight_active_link: true
+
+# Site footer
+
+footer:
+  copyright:
+    notice: '© {year} <a href="mailto:oewang2738@gmail.com">oewang</a> | 版权所有.'
+    license:
+      enable: true
+      allow_derivatives: false
+      share_alike: false
+      allow_commercial: false
+
+# Localization
+
+locale:
+  date_format: 'Jan 2, 2006'
+  time_format: '3:04 PM'
+  address_format: en-us
+
+# Site features
+
+features:
+  syntax_highlighter:
+    theme_light: github-light
+    theme_dark: dracula
+  math:
+    enable: false
+  privacy_pack:
+    enable: false
+  repository:
+    url: 'https://github.com/oewang'
+    content_dir: content
+    branch: master
+  avatar:
+    gravatar: false
+    shape: circle
+  comment:
+    provider: 'giscus'
+    disqus:
+      shortname: ''
+      show_count: true
+    commento:
+      url: ''
+    giscus:
+      repo: 'oewang/oewang.github.io'
+      repo_id: 'R_kgDOI5ZHBQ'
+      category: 'Announcements'
+      category_id: 'DIC_kwDOI5ZHBc4CUecv'
+      mapping: 'title'
+      strict_matching: 'true'
+      reactions: 'true'
+      emit_metadata: 'true'
+      input_position: 'top'
+      theme: 'preferred_color_scheme'
+      language_code: 'zh-CN'
+      crossorigin: 'anonymous'
+      async: 'true'
+  search:
+    provider: owang
+    algolia:
+      app_id: ''
+      api_key: ''
+      index_name: ''
+      show_logo: false
+  map:
+    provider: ''
+    api_key: ''
+    zoom: 15
+
+# Extensions
+
+extensions:
+  cms:
+    branch: master
+    local_backend: false
+  academicons:
+    enable: true
+
+# Security
+
+security:
+  # Allow frame for embedding speaker notes in slides
+  allow_frame: true

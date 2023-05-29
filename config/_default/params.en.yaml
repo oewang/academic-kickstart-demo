@@ -43,9 +43,9 @@ header:
 
 footer:
   copyright:
-    notice: '<a href="https://oewang.github.io">oewang.github.io</a> © {year} | All Rights Reserved.'
+    notice: '© {year} <a href="mailto:oewang2738@gmail.com">oewang</a> | All Rights Reserved.'
     license:
-      enable: false
+      enable: true
       allow_derivatives: false
       share_alike: false
       allow_commercial: false
@@ -92,8 +92,7 @@ features:
       emit_metadata: 'true'
       input_position: 'top'
       theme: 'preferred_color_scheme'
-      languages_mapping: 
-        'en-us': en
+      language_code: 'en'
       crossorigin: 'anonymous'
       async: 'true'
   search:
@@ -112,7 +111,7 @@ features:
 
 extensions:
   cms:
-    branch: main
+    branch: master
     local_backend: false
   academicons:
     enable: true

@@ -10,7 +10,7 @@ lastmod: 2023-05-24T19:59:33+08:00
 featured: true
 draft: false
 math: true
-commentable: true
+# commentable: true
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
