@@ -43,9 +43,9 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} <a href="mailto:oewang2738@gmail.com">oewang</a> | All Rights Reserved.'
+    notice: '© {year} oewang.github.io | All Rights Reserved.'
     license:
-      enable: true
+      enable: false
       allow_derivatives: false
       share_alike: false
       allow_commercial: false
